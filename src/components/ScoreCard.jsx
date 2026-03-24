@@ -1,3 +1,4 @@
+import React from "react";
 function getVerdict(score) {
   if (score >= 85) return { text: "Excellent", cls: "ok" };
   if (score >= 75) return { text: "Strong", cls: "ok" };

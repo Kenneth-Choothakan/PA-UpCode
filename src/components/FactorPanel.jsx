@@ -1,3 +1,4 @@
+import React from "react";
 const FACTOR_DEFAULTS = [
   { key: "Median Income", label: "Median Income", icon: "dollar", defaultValue: 75 },
   { key: "Median Rent", label: "Median Rent", icon: "building", defaultValue: 70 },

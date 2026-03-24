@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useCallback } from "react";
 import MapView from "./components/MapView";
 import AddressInput from "./components/AddressInput";
@@ -6,7 +7,6 @@ import ScoreCard, { getVerdict } from "./components/ScoreCard";
 import SavedLocations from "./components/SavedLocations";
 import "./App.css";
 import supabase from "./utils/supabase";
-
 const DEFAULT_CENTER = [41.9, -87.7];
 const DEFAULT_ZOOM = 10;
 const SCORE_BASE = 1.0;
